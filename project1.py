@@ -2,7 +2,7 @@
 import cv2
 import numpy as np
 
-image = cv2.imread(r'C:\Users\aksha\OneDrive\Desktop\python\Python Program\Io\Akshatha_1.png',1)
+image = cv2.imread('guitar.png',1)
 
 def mouse_event(event, x, y, flags, param):
     global image
